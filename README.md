@@ -10,9 +10,9 @@ Chaque niveau est représenté par une grille de 32 x 16 cases. Chaque case peut
 * un diamant = Macron
 * un mur = Drapeau français
 * rien
-* Personnage = Napoleon
+* Personnage = Le Petit Français
 
-**Le but du jeu:** Manger tous les Macron tout en faisant attention à ne pas se faire écraser par les Zemmour afin d'obtenir la victoire présidentielle.
+**Le but du jeu:** Aider le petit français à manger tous les Macron tout en faisant attention à ne pas se faire écraser par les Zemmours afin d'obtenir la victoire présidentielle.
 
 Le personnage peut se déplacer horizontalement ou verticalement d'une case à la fois. Il peut se déplacer sur les cases vides ou sur l'herbe.
 Le personnage a la possibilité de pousser les rochers mais seulement horizontalement et un seul à la fois.
