@@ -1,0 +1,55 @@
+map {
+    display: flex;
+    margin: 0px;
+}
+
+map > jeu {
+    display: flex;
+    flex-direction: column;
+    counter-reset: counterColumn;
+    align-items: center;
+}
+
+map > jeu > header {
+    display: flex;
+    flex-direction: row;
+    counter-reset: counterRow;
+    font-family: sans-serif;
+    font-size: medium;
+    color: aliceblue;
+}
+
+map > jeu > header > div {
+    display: flex;
+    margin: 10px;
+}
+
+
+map > jeu > niveau {
+    display: flex;
+    flex-direction: column;
+    counter-reset: counterColumn;
+    background-color: rgb(36, 34, 34);
+}
+
+map > jeu > niveau > div {
+   display: flex;
+}
+
+map > jeu > niveau > div > div {
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size:x-large;
+    color: aliceblue;
+}
+map > jeu > niveau > div > div.D{ background: url(../img/macron.png); }
+map > jeu > niveau > div > div.M{ background: url(../img/Drapeau-France.png); }
+map > jeu > niveau > div > div.P{ background: url(../img/personnage.png); }
+map > jeu > niveau > div > div.R{ background: url(../img/z.png); }
+map > jeu > niveau > div > div.T{ background: url(../img/herbe.jpg);}
+map > jeu > niveau > div > div.V{ background: url(../img/space_background.png); }
